@@ -6,7 +6,16 @@ def create_app():
     app = Flask(__name__)
     app.config.from_object(Config)
 
-    CORS(app, resources={r"/api/*": {"origins": "*"}})
+    CORS(app, resources={r"/api/*": {
+        "origins": [
+            "https://cadpoint-frontend.vercel.app",
+            "http://localhost:5173",
+            "http://localhost:3000",
+            "*"
+        ],
+        "methods": ["GET", "POST", "OPTIONS", "PUT", "DELETE"],
+        "allow_headers": ["Content-Type", "Authorization", "X-Requested-With", "Accept"]
+    }})
 
     from app.routes.registration import registration_bp
     from app.routes.contact import contact_bp
