@@ -13,6 +13,10 @@ def handle_contact():
         if not data.get('name') or not data.get('email') or not data.get('message'):
             return jsonify({'error': 'Name, email, and message are required'}), 400
 
+        # Privacy acknowledgement metadata check (DPDP 2025)
+        data['privacyAcknowledged'] = str(data.get('privacyAcknowledged', 'true')).lower() == 'true'
+        data['privacyNoticeVersion'] = data.get('privacyNoticeVersion', '1.0')
+
         # 1. Save Enquiry Lead to MongoDB Atlas
         db_service.save_enquiry(data)
 

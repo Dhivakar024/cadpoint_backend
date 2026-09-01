@@ -13,6 +13,10 @@ def handle_registration():
         if not data.get('fullName') or not data.get('email') or not data.get('phone'):
             return jsonify({'error': 'Missing required fields: fullName, email, phone'}), 400
 
+        # Privacy acknowledgement metadata check (DPDP 2025)
+        data['privacyAcknowledged'] = str(data.get('privacyAcknowledged', 'true')).lower() == 'true'
+        data['privacyNoticeVersion'] = data.get('privacyNoticeVersion', '1.0')
+
         reg_id = db_service.save_registration(data)
 
         send_registration_email(
