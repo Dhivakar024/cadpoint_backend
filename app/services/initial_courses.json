@@ -1,7 +1,7 @@
 [
   {
     "id": "it-prof-fullstack-python-react",
-    "title": "Professional Program AI in Full Stack Development – Python & React",
+    "title": "Professional Program AI in Full Stack Development \u00e2\u20ac\u201c Python & React",
     "domain": "IT & Non-IT",
     "level": "Professional",
     "duration": "200 hours",
@@ -10,7 +10,8 @@
     "software": "HTML, CSS, JavaScript, Python, React",
     "image": "/images/it_prof_python_react.jpg",
     "description": "Professional full stack development course covering HTML, CSS, JavaScript, Python backend logic, and React single-page application development.",
-    "slug": "professional-program-ai-in-full-stack-development-python-react"
+    "slug": "professional-program-ai-in-full-stack-development-python-react",
+    "department": "IT & Non-IT"
   },
   {
     "id": "it-prof-java-fullstack",
@@ -23,7 +24,8 @@
     "software": "HTML, CSS, JavaScript, Java, Spring Boot",
     "image": "/images/it_prof_java_fullstack.jpg",
     "description": "Enterprise Java full stack engineering training with HTML, CSS, JavaScript, Java core principles, and Spring Boot microservices.",
-    "slug": "professional-program-ai-in-java-full-stack"
+    "slug": "professional-program-ai-in-java-full-stack",
+    "department": "IT & Non-IT"
   },
   {
     "id": "it-prof-mean-stack",
@@ -36,7 +38,8 @@
     "software": "MongoDB, Express.js, Angular, Node.js",
     "image": "/images/it_prof_mean_stack.jpg",
     "description": "Full stack web application development using MEAN stack: MongoDB database architecture, Express server, Angular frontend, and Node.js runtime.",
-    "slug": "professional-program-ai-in-mean-stack"
+    "slug": "professional-program-ai-in-mean-stack",
+    "department": "IT & Non-IT"
   },
   {
     "id": "it-prof-mern-stack",
@@ -49,7 +52,8 @@
     "software": "MongoDB, Express.js, React, Node.js",
     "image": "/images/it_prof_mern_stack.jpg",
     "description": "Production-grade MERN stack engineering with MongoDB NoSQL storage, Express API framework, React component UI, and Node.js backend.",
-    "slug": "professional-program-ai-in-mern-stack"
+    "slug": "professional-program-ai-in-mern-stack",
+    "department": "IT & Non-IT"
   },
   {
     "id": "it-prof-web-design",
@@ -62,7 +66,8 @@
     "software": "HTML, CSS, Bootstrap, JavaScript, JQuery",
     "image": "/images/it_prof_web_design.jpg",
     "description": "Advanced responsive web design program mastering semantic HTML, CSS styling, Bootstrap layouts, JavaScript DOM, and JQuery interactive elements.",
-    "slug": "professional-program-advanced-web-designing"
+    "slug": "professional-program-advanced-web-designing",
+    "department": "IT & Non-IT"
   },
   {
     "id": "it-prof-software-testing",
@@ -75,7 +80,8 @@
     "software": "Manual Testing, Selenium, JMeter, QTP",
     "image": "/images/it_prof_software_testing.jpg",
     "description": "Comprehensive software quality assurance covering manual test execution, Selenium test automation scripts, JMeter performance testing, and QTP/UFT.",
-    "slug": "professional-program-software-testing"
+    "slug": "professional-program-software-testing",
+    "department": "IT & Non-IT"
   },
   {
     "id": "it-prof-ds-ai",
@@ -88,7 +94,8 @@
     "software": "Python, Machine Learning, Tableau, Power BI",
     "image": "/images/it_prof_ds_ai.jpg",
     "description": "Data science and artificial intelligence curriculum covering Python analytics, Machine Learning predictive models, Tableau, and Power BI dashboards.",
-    "slug": "professional-program-data-science-ai"
+    "slug": "professional-program-data-science-ai",
+    "department": "IT & Non-IT"
   },
   {
     "id": "it-prof-cloud-devops",
@@ -101,7 +108,8 @@
     "software": "AWS, Azure, Docker, Jenkins",
     "image": "/images/it_prof_cloud_devops.jpg",
     "description": "Cloud computing and DevOps engineering with AWS cloud infrastructure, Microsoft Azure administration, Docker containers, and Jenkins CI/CD automation.",
-    "slug": "professional-program-cloud-devops"
+    "slug": "professional-program-cloud-devops",
+    "department": "IT & Non-IT"
   },
   {
     "id": "it-prof-cybersecurity",
@@ -114,7 +122,8 @@
     "software": "Wireshark, Metasploit, Burp Suite, Mimikatz",
     "image": "/images/it_prof_cybersecurity.jpg",
     "description": "Professional cybersecurity and ethical hacking program covering Wireshark network packet analysis, Metasploit exploitation, Burp Suite, and Mimikatz.",
-    "slug": "professional-program-cybersecurity-ethical-hacking"
+    "slug": "professional-program-cybersecurity-ethical-hacking",
+    "department": "IT & Non-IT"
   },
   {
     "id": "it-prof-rpa",
@@ -127,7 +136,8 @@
     "software": "UI Path, Blue Prism, Automation Anywhere",
     "image": "/images/it_prof_rpa.jpg",
     "description": "Robotic Process Automation (RPA) diploma engineering workflows in UiPath Studio, enterprise Blue Prism bots, and Automation Anywhere platform.",
-    "slug": "professional-program-rpa-tools"
+    "slug": "professional-program-rpa-tools",
+    "department": "IT & Non-IT"
   },
   {
     "id": "it-prof-digital-marketing",
@@ -140,7 +150,8 @@
     "software": "SEO, Google Ads, Email Marketing, Analytics",
     "image": "/images/it_prof_digital_marketing.jpg",
     "description": "Digital marketing strategies covering Search Engine Optimization (SEO), Google Ads PPC management, automated email marketing, and Analytics data tracking.",
-    "slug": "professional-program-digital-marketing"
+    "slug": "professional-program-digital-marketing",
+    "department": "IT & Non-IT"
   },
   {
     "id": "it-prof-db-management",
@@ -153,7 +164,8 @@
     "software": "MySQL, MongoDB, Oracle, SQL Server",
     "image": "/images/it_prof_db_management.jpg",
     "description": "Database administration and SQL development mastering MySQL relational schemas, MongoDB NoSQL collections, Oracle PL/SQL, and SQL Server.",
-    "slug": "professional-program-database-management"
+    "slug": "professional-program-database-management",
+    "department": "IT & Non-IT"
   },
   {
     "id": "it-prof-game-dev",
@@ -166,7 +178,8 @@
     "software": "Unity, Unreal Engine, C#, Blender",
     "image": "/images/it_prof_game_dev.jpg",
     "description": "Interactive 2D/3D game development utilizing Unity engine C# scripting, Unreal Engine C++ blueprints, and Blender 3D modeling pipelines.",
-    "slug": "professional-program-game-development"
+    "slug": "professional-program-game-development",
+    "department": "IT & Non-IT"
   },
   {
     "id": "it-prof-blockchain",
@@ -179,7 +192,8 @@
     "software": "Blockchain, Solidity, Smart Contracts, Ethereum",
     "image": "/images/it_prof_blockchain.jpg",
     "description": "Decentralized blockchain engineering with Solidity smart contracts, Ethereum Virtual Machine (EVM), Web3 integration, and DApp development.",
-    "slug": "professional-program-blockchain-development"
+    "slug": "professional-program-blockchain-development",
+    "department": "IT & Non-IT"
   },
   {
     "id": "it-prof-ar-vr",
@@ -192,7 +206,8 @@
     "software": "Unity, ARKit, ARCore, 3D Modeling",
     "image": "/images/it_prof_ar_vr.jpg",
     "description": "Augmented and Virtual Reality application development utilizing Unity AR Foundation, Apple ARKit, Google ARCore, and 3D environment modeling.",
-    "slug": "professional-program-ar-vr-development"
+    "slug": "professional-program-ar-vr-development",
+    "department": "IT & Non-IT"
   },
   {
     "id": "it-master-fullstack-dev",
@@ -205,7 +220,8 @@
     "software": "HTML, CSS, JavaScript, Python, Django, React, Node.js",
     "image": "/images/it_master_fullstack_dev.jpg",
     "description": "Postgraduate master software engineering diploma covering HTML, CSS, JavaScript, Python Django REST APIs, React SPA, and Node.js microservices.",
-    "slug": "master-diploma-ai-in-full-stack-development"
+    "slug": "master-diploma-ai-in-full-stack-development",
+    "department": "IT & Non-IT"
   },
   {
     "id": "it-master-software-eng",
@@ -218,7 +234,8 @@
     "software": "Python, Java, C#, .NET, SQL Server, Git",
     "image": "/images/it_master_software_eng.jpg",
     "description": "Master level software engineering curriculum covering multi-language programming in Python, Java, and C# .NET, enterprise SQL Server, and Git workflows.",
-    "slug": "master-diploma-software-engineering"
+    "slug": "master-diploma-software-engineering",
+    "department": "IT & Non-IT"
   },
   {
     "id": "it-master-cloud-devops",
@@ -231,7 +248,8 @@
     "software": "AWS, Azure, Docker, Kubernetes, Jenkins, Ansible",
     "image": "/images/it_master_cloud_devops.jpg",
     "description": "Master diploma in multi-cloud architecture and DevOps automation featuring AWS, Azure, Docker containers, Kubernetes, Jenkins, and Ansible.",
-    "slug": "master-diploma-cloud-computing-devops"
+    "slug": "master-diploma-cloud-computing-devops",
+    "department": "IT & Non-IT"
   },
   {
     "id": "it-master-ds-ai",
@@ -244,7 +262,8 @@
     "software": "Python, Machine Learning, Deep Learning, Tableau, Power BI, Hadoop",
     "image": "/images/it_master_ds_ai.jpg",
     "description": "Advanced postgraduate master diploma in deep neural networks, Python Machine Learning, Big Data Hadoop ecosystems, Tableau, and Power BI analytics.",
-    "slug": "master-diploma-data-science-ai"
+    "slug": "master-diploma-data-science-ai",
+    "department": "IT & Non-IT"
   },
   {
     "id": "it-master-cybersecurity",
@@ -257,7 +276,8 @@
     "software": "Wireshark, Metasploit, Mimikatz, Kali Linux, Burp Suite, Cryptography",
     "image": "/images/it_master_cybersecurity.jpg",
     "description": "Postgraduate master diploma in offensive and defensive cybersecurity, Kali Linux penetration testing, vulnerability auditing, and network cryptography.",
-    "slug": "master-diploma-cybersecurity-penetration-testing"
+    "slug": "master-diploma-cybersecurity-penetration-testing",
+    "department": "IT & Non-IT"
   },
   {
     "id": "it-master-rpa-automation",
@@ -270,7 +290,8 @@
     "software": "UI Path, Blue Prism, Automation Anywhere, Power Automate",
     "image": "/images/it_master_rpa_automation.jpg",
     "description": "Master level robotic process automation diploma covering enterprise UiPath bot architecture, Blue Prism control rooms, Automation Anywhere, and Power Automate.",
-    "slug": "master-diploma-rpa-automation"
+    "slug": "master-diploma-rpa-automation",
+    "department": "IT & Non-IT"
   },
   {
     "id": "it-master-digital-marketing",
@@ -283,7 +304,8 @@
     "software": "SEO, Google Ads, Email Marketing, Analytics, Social Media Marketing, HubSpot",
     "image": "/images/it_master_digital_marketing.jpg",
     "description": "Postgraduate master diploma in multi-channel digital marketing, advanced SEO strategies, Google Ads PPC management, Social Media, and HubSpot CRM.",
-    "slug": "master-diploma-digital-marketing-analytics"
+    "slug": "master-diploma-digital-marketing-analytics",
+    "department": "IT & Non-IT"
   },
   {
     "id": "it-master-web-app",
@@ -296,7 +318,8 @@
     "software": "HTML, CSS, Bootstrap, Angular, React Native, Firebase",
     "image": "/images/it_master_web_app.jpg",
     "description": "Master level web and cross-platform mobile application development with HTML, CSS, Bootstrap, Angular TypeScript, React Native, and Google Firebase.",
-    "slug": "master-diploma-web-app-development"
+    "slug": "master-diploma-web-app-development",
+    "department": "IT & Non-IT"
   },
   {
     "id": "it-master-adv-programming",
@@ -309,7 +332,8 @@
     "software": "Python, Java, C++, Go, Swift, Git, Docker",
     "image": "/images/it_master_adv_programming.jpg",
     "description": "Master diploma in polyglot software engineering covering high-performance system programming in Python, Java, C++, Go, Swift, Git, and Docker containers.",
-    "slug": "master-diploma-advanced-programming"
+    "slug": "master-diploma-advanced-programming",
+    "department": "IT & Non-IT"
   },
   {
     "id": "it-master-game-ar-vr",
@@ -322,7 +346,8 @@
     "software": "Unity, Unreal Engine, Blender, ARKit, ARCore, C#",
     "image": "/images/it_master_game_ar_vr.jpg",
     "description": "Complete postgraduate master diploma in 3D game engine development, Unreal Engine C++ blueprints, Blender 3D modeling, Unity C# scripting, and ARKit/ARCore.",
-    "slug": "master-diploma-game-ar-vr-development"
+    "slug": "master-diploma-game-ar-vr-development",
+    "department": "IT & Non-IT"
   },
   {
     "id": "mm-uiux",
@@ -335,7 +360,8 @@
     "software": "Figma, Adobe XD, Photoshop, Principle",
     "image": "/images/javascript.jpg",
     "description": "User experience research, wireframing, interactive mobile/web design systems, prototyping, and usability testing.",
-    "slug": "ui-ux-design-figma"
+    "slug": "ui-ux-design-figma",
+    "department": "Multimedia"
   },
   {
     "id": "mm-prof-graphic-web",
@@ -348,7 +374,8 @@
     "software": "Photoshop, Illustrator, CorelDRAW, HTML/CSS",
     "image": "/images/htmlcss.jpg",
     "description": "Professional training in vector illustration, print graphic design, CorelDRAW layout, and responsive HTML/CSS web design.",
-    "slug": "professional-course-graphic-web-design"
+    "slug": "professional-course-graphic-web-design",
+    "department": "Multimedia"
   },
   {
     "id": "mm-prof-video-prod",
@@ -361,7 +388,8 @@
     "software": "Premiere Pro, After Effects, Audition, Photoshop",
     "image": "/images/javascript.jpg",
     "description": "Digital video editing masterclass featuring Premiere Pro timeline editing, After Effects motion graphics, Audition audio mastering, and Photoshop graphics.",
-    "slug": "professional-course-digital-video-production"
+    "slug": "professional-course-digital-video-production",
+    "department": "Multimedia"
   },
   {
     "id": "mm-prof-2d-anim",
@@ -374,7 +402,8 @@
     "software": "Flash, Photoshop, Sound Forge, Premiere Pro",
     "image": "/images/cpp.jpg",
     "description": "2D character animation, keyframing, audio editing, and video post-production using Adobe Flash, Sound Forge, and Premiere Pro.",
-    "slug": "professional-course-2d-animation-editing"
+    "slug": "professional-course-2d-animation-editing",
+    "department": "Multimedia"
   },
   {
     "id": "mm-prof-print-pub",
@@ -387,7 +416,8 @@
     "software": "Photoshop, InDesign, PageMaker, Illustrator",
     "image": "/images/c.jpg",
     "description": "Desktop publishing, magazine layout, book typography, vector design, and commercial printing prepress workflows.",
-    "slug": "professional-course-print-publishing"
+    "slug": "professional-course-print-publishing",
+    "department": "Multimedia"
   },
   {
     "id": "mm-prof-uiux-figma",
@@ -400,7 +430,8 @@
     "software": "Photoshop, Figma, Illustrator, InDesign",
     "image": "/images/react.jpg",
     "description": "User interface and experience design covering Figma interactive wireframing, component design systems, prototyping, and layout publishing.",
-    "slug": "professional-course-ui-ux-design-figma"
+    "slug": "professional-course-ui-ux-design-figma",
+    "department": "Multimedia"
   },
   {
     "id": "mm-prof-3d-anim",
@@ -413,7 +444,8 @@
     "software": "Maya, After Effects, Photoshop, Premiere",
     "image": "/images/it_fullstack_course.jpg",
     "description": "3D character modeling, texturing, animation rigging, motion compositing, and video editing using Autodesk Maya and After Effects.",
-    "slug": "professional-course-3d-design-animation"
+    "slug": "professional-course-3d-design-animation",
+    "department": "Multimedia"
   },
   {
     "id": "mm-prof-arch-vis",
@@ -426,7 +458,8 @@
     "software": "3ds Max, V-Ray, Photoshop, Premiere Pro",
     "image": "/images/3ds_max.jpg",
     "description": "Photorealistic 3D architectural rendering, V-Ray raytracing lighting, post-processing retouching, and walkthrough video creation.",
-    "slug": "professional-course-architectural-visualization"
+    "slug": "professional-course-architectural-visualization",
+    "department": "Multimedia"
   },
   {
     "id": "mm-master-graphic-mm",
@@ -439,7 +472,8 @@
     "software": "Photoshop, Illustrator, CorelDRAW, InDesign, After Effects",
     "image": "/images/multimedia_vfx_course.jpg",
     "description": "Master diploma in digital graphic branding, publication layout, vector art, and motion graphics design.",
-    "slug": "master-diploma-graphic-multimedia-design"
+    "slug": "master-diploma-graphic-multimedia-design",
+    "department": "Multimedia"
   },
   {
     "id": "mm-master-anim-vfx",
@@ -452,7 +486,8 @@
     "software": "Maya, After Effects, Premiere Pro, Flash, Photoshop",
     "image": "/images/cpp.jpg",
     "description": "Complete postgraduate master diploma in 3D animation, VFX visual effects keying, 2D animation, and film editing pipelines.",
-    "slug": "master-diploma-animation-vfx-flash"
+    "slug": "master-diploma-animation-vfx-flash",
+    "department": "Multimedia"
   },
   {
     "id": "mm-master-digital-media",
@@ -465,7 +500,8 @@
     "software": "Premiere, After Effects, Audition, Photoshop, Illustrator",
     "image": "/images/javascript.jpg",
     "description": "Master level film and digital broadcast media production covering non-linear editing, motion graphics, audio mastering, and graphic design.",
-    "slug": "master-diploma-digital-media-production"
+    "slug": "master-diploma-digital-media-production",
+    "department": "Multimedia"
   },
   {
     "id": "mm-master-mm-web",
@@ -478,7 +514,8 @@
     "software": "Photoshop, Illustrator, HTML/CSS, JavaScript, Figma",
     "image": "/images/htmlcss.jpg",
     "description": "Comprehensive multimedia web engineering diploma combining graphic design, Figma UI prototyping, HTML/CSS, and interactive JavaScript.",
-    "slug": "master-diploma-multimedia-web"
+    "slug": "master-diploma-multimedia-web",
+    "department": "Multimedia"
   },
   {
     "id": "mm-master-3d-game",
@@ -491,7 +528,8 @@
     "software": "Maya, Unity, Photoshop, Blender, Substance Painter",
     "image": "/images/react.jpg",
     "description": "Master 3D game art diploma covering character modeling in Maya/Blender, PBR texturing in Substance Painter, and real-time Unity engine integration.",
-    "slug": "master-diploma-3d-animation-game-art"
+    "slug": "master-diploma-3d-animation-game-art",
+    "department": "Multimedia"
   },
   {
     "id": "mm-master-arch-eng-anim",
@@ -504,12 +542,13 @@
     "software": "3ds Max, V-Ray, AutoCAD, Photoshop, Premiere Pro",
     "image": "/images/3ds_max.jpg",
     "description": "Postgraduate master diploma in CAD architectural modeling, V-Ray photorealistic rendering, engineering fly-through animation, and video editing.",
-    "slug": "master-diploma-architectural-engineering-animation"
+    "slug": "master-diploma-architectural-engineering-animation",
+    "department": "Multimedia"
   },
   {
     "id": "acc-prof-taxation",
     "title": "Professional Diploma in Financial Accounting & Taxation",
-    "domain": "Accounting & ERP",
+    "domain": "Accounts & Finance",
     "level": "Professional",
     "duration": "140 hours",
     "mode": "Online / Offline",
@@ -517,12 +556,13 @@
     "software": "Tally Prime, GST, Taxation, Excel",
     "image": "/images/financial_accounting_taxation.jpg",
     "description": "Comprehensive financial accounting diploma covering Tally Prime operations, GST return filing, direct taxation, and balance sheet finalization.",
-    "slug": "professional-diploma-financial-accounting-taxation"
+    "slug": "professional-diploma-financial-accounting-taxation",
+    "department": "Accounts & Finance"
   },
   {
     "id": "acc-prof-data",
     "title": "Professional Diploma in Data-Driven Accounting",
-    "domain": "Accounting & ERP",
+    "domain": "Accounts & Finance",
     "level": "Professional",
     "duration": "140 hours",
     "mode": "Online / Offline",
@@ -530,12 +570,13 @@
     "software": "Advanced Excel, Power BI, QuickBooks",
     "image": "/images/data_driven_accounting.jpg",
     "description": "Modern data-driven accounting using Advanced Excel financial modeling, interactive Power BI dashboards, and cloud QuickBooks.",
-    "slug": "professional-diploma-data-driven-accounting"
+    "slug": "professional-diploma-data-driven-accounting",
+    "department": "Accounts & Finance"
   },
   {
     "id": "acc-prof-sap",
     "title": "Professional Diploma in SAP Functional Modules",
-    "domain": "Accounting & ERP",
+    "domain": "Accounts & Finance",
     "level": "Professional",
     "duration": "150 hours",
     "mode": "Online / Offline",
@@ -543,12 +584,13 @@
     "software": "SAP FICO, SAP MM, SAP SD, SAP PP",
     "image": "/images/sap_functional_modules.jpg",
     "description": "Functional module expertise across SAP FICO financial controlling, Materials Management (MM), Sales & Distribution (SD), and Production Planning (PP).",
-    "slug": "professional-diploma-sap-functional-modules"
+    "slug": "professional-diploma-sap-functional-modules",
+    "department": "Accounts & Finance"
   },
   {
     "id": "acc-prof-mis",
     "title": "Professional Diploma in MIS & Business Reporting",
-    "domain": "Accounting & ERP",
+    "domain": "Accounts & Finance",
     "level": "Professional",
     "duration": "140 hours",
     "mode": "Online / Offline",
@@ -556,12 +598,13 @@
     "software": "Excel, Advanced Excel, Power BI, Zoho Books",
     "image": "/images/mis_business_reporting.jpg",
     "description": "Executive MIS report generation, Power BI data analytics, financial forecasting models, and Zoho Books accounting software.",
-    "slug": "professional-diploma-mis-business-reporting"
+    "slug": "professional-diploma-mis-business-reporting",
+    "department": "Accounts & Finance"
   },
   {
     "id": "acc-prof-foreign",
     "title": "Professional Diploma in Indian & Foreign Accounting",
-    "domain": "Accounting & ERP",
+    "domain": "Accounts & Finance",
     "level": "Professional",
     "duration": "140 hours",
     "mode": "Online / Offline",
@@ -569,12 +612,13 @@
     "software": "Tally, QuickBooks, Indian + Gulf Tax",
     "image": "/images/indian_foreign_accounting.jpg",
     "description": "Dual accounting standards training covering Indian statutory tax regulations, Gulf VAT compliance, Tally, and QuickBooks global accounting.",
-    "slug": "professional-diploma-indian-foreign-accounting"
+    "slug": "professional-diploma-indian-foreign-accounting",
+    "department": "Accounts & Finance"
   },
   {
     "id": "acc-master-practical",
     "title": "PG Diploma in Professional & Practical Accounting",
-    "domain": "Accounting & ERP",
+    "domain": "Accounts & Finance",
     "level": "Master Diploma",
     "duration": "180 hours",
     "mode": "Online / Offline",
@@ -582,12 +626,13 @@
     "software": "MS Office, Advanced Excel, Tally, Taxation, GST, Payroll",
     "image": "/images/practical_accounting_master.jpg",
     "description": "Postgraduate master program covering practical corporate accounting, payroll processing, statutory GST filing, Tally, and MS Office suites.",
-    "slug": "pg-diploma-professional-practical-accounting"
+    "slug": "pg-diploma-professional-practical-accounting",
+    "department": "Accounts & Finance"
   },
   {
     "id": "acc-master-intl",
     "title": "PG Diploma in International Accounting & Taxation",
-    "domain": "Accounting & ERP",
+    "domain": "Accounts & Finance",
     "level": "Master Diploma",
     "duration": "200 hours",
     "mode": "Online / Offline",
@@ -595,12 +640,13 @@
     "software": "International Taxation, Sage 50, Zoho Books, Gulf VAT, QuickBooks",
     "image": "/images/international_accounting_taxation.jpg",
     "description": "Master international accounting diploma with Sage 50, Gulf VAT laws, US/UK taxation principles, and multi-currency cloud accounting.",
-    "slug": "pg-diploma-international-accounting-taxation"
+    "slug": "pg-diploma-international-accounting-taxation",
+    "department": "Accounts & Finance"
   },
   {
     "id": "acc-master-sap-impl",
     "title": "PG Diploma in SAP ERP Implementation",
-    "domain": "Accounting & ERP",
+    "domain": "Accounts & Finance",
     "level": "Master Diploma",
     "duration": "200 hours",
     "mode": "Online / Offline",
@@ -608,12 +654,13 @@
     "software": "SAP FICO, SAP MM, SAP SD, SAP PP, Logistics",
     "image": "/images/sap_erp_implementation.jpg",
     "description": "Enterprise SAP ERP implementation diploma covering business blueprinting, S/4HANA module integration, logistics, and corporate controlling.",
-    "slug": "pg-diploma-sap-erp-implementation"
+    "slug": "pg-diploma-sap-erp-implementation",
+    "department": "Accounts & Finance"
   },
   {
     "id": "acc-master-mis-analytics",
     "title": "PG Diploma in Financial Control & MIS Analytics",
-    "domain": "Accounting & ERP",
+    "domain": "Accounts & Finance",
     "level": "Master Diploma",
     "duration": "200 hours",
     "mode": "Online / Offline",
@@ -621,12 +668,13 @@
     "software": "Excel, Power BI, Tally, GST, Payroll, MIS Reports",
     "image": "/images/financial_control_mis_analytics.jpg",
     "description": "Master financial control diploma integrating statutory GST audit, corporate payroll, DAX Power BI business intelligence, and executive MIS reporting.",
-    "slug": "pg-diploma-financial-control-mis-analytics"
+    "slug": "pg-diploma-financial-control-mis-analytics",
+    "department": "Accounts & Finance"
   },
   {
     "id": "acc-master-global",
     "title": "PG Diploma in Global Finance & ERP",
-    "domain": "Accounting & ERP",
+    "domain": "Accounts & Finance",
     "level": "Master Diploma",
     "duration": "220 hours",
     "mode": "Online / Offline",
@@ -634,7 +682,8 @@
     "software": "SAP ERP, Tally Prime, QuickBooks, Zoho Books, Foreign Accounting",
     "image": "/images/global_finance_erp.jpg",
     "description": "Ultimate postgraduate master diploma in global financial engineering, multi-country tax compliance, enterprise SAP ERP, and multi-ledger systems.",
-    "slug": "pg-diploma-global-finance-erp"
+    "slug": "pg-diploma-global-finance-erp",
+    "department": "Accounts & Finance"
   },
   {
     "id": "civil-prof-arch-design",
@@ -647,7 +696,8 @@
     "software": "AutoCAD 2D + 3DS Max + Revit Architecture",
     "image": "/images/civil_prof_arch_design.jpg",
     "description": "Professional architectural design program combining AutoCAD 2D floor plans, 3DS Max 3D visualization, and Revit Architecture BIM modeling.",
-    "slug": "professional-in-architectural-design"
+    "slug": "professional-in-architectural-design",
+    "department": "Civil & Architecture"
   },
   {
     "id": "civil-prof-arch-planning",
@@ -660,7 +710,8 @@
     "software": "AutoCAD 2D + Revit Architecture + Quantity Takeoff + Microsoft Projects + PPM Concepts",
     "image": "/images/civil_prof_arch_planning.jpg",
     "description": "Comprehensive architectural project engineering covering AutoCAD 2D, Revit BIM, Quantity Takeoff estimation, Microsoft Projects, and PPM concepts.",
-    "slug": "professional-in-architectural-design-project-planning"
+    "slug": "professional-in-architectural-design-project-planning",
+    "department": "Civil & Architecture"
   },
   {
     "id": "civil-prof-building-design-staad-qto",
@@ -673,7 +724,8 @@
     "software": "AutoCAD 2D + Staad Pro + Revit Architecture + Quantity Take off",
     "image": "/images/civil_prof_building_design_staad_qto.jpg",
     "description": "Structural building design and estimation diploma integrating AutoCAD 2D, STAAD.Pro CONNECT structural analysis, Revit Architecture, and Quantity Takeoff.",
-    "slug": "professional-in-building-design-staad-qto"
+    "slug": "professional-in-building-design-staad-qto",
+    "department": "Civil & Architecture"
   },
   {
     "id": "civil-prof-building-design-staad-primavera",
@@ -686,7 +738,8 @@
     "software": "STAAD Pro + Revit Architecture + Primavera + PPM Concepts",
     "image": "/images/civil_prof_building_design_staad_primavera.jpg",
     "description": "Advanced building engineering and project control combining STAAD Pro structural modeling, Revit Architecture BIM, Primavera P6 scheduling, and PPM concepts.",
-    "slug": "professional-in-building-design-staad-primavera"
+    "slug": "professional-in-building-design-staad-primavera",
+    "department": "Civil & Architecture"
   },
   {
     "id": "civil-prof-building-design-etabs-msp",
@@ -699,7 +752,8 @@
     "software": "ETABS + Revit Architecture + Microsoft Projects + PPM Concepts",
     "image": "/images/civil_prof_building_design_etabs_msp.jpg",
     "description": "High-rise structural building analysis and project management utilizing CSI ETABS analysis, Revit Architecture, Microsoft Projects, and PPM concepts.",
-    "slug": "professional-in-building-design-etabs-msp"
+    "slug": "professional-in-building-design-etabs-msp",
+    "department": "Civil & Architecture"
   },
   {
     "id": "civil-prof-struct-simulation",
@@ -712,7 +766,8 @@
     "software": "Staad Pro + ETabs + Microsoft Projects + PPM Concepts",
     "image": "/images/civil_prof_struct_simulation.jpg",
     "description": "Comprehensive structural analysis and finite element simulation diploma combining STAAD Pro, ETABS framing design, Microsoft Projects, and PPM concepts.",
-    "slug": "professional-in-structural-design-simulation"
+    "slug": "professional-in-structural-design-simulation",
+    "department": "Civil & Architecture"
   },
   {
     "id": "civil-prof-bim-planning",
@@ -725,7 +780,8 @@
     "software": "Revit Architecture + Navisworks + MS Project + PPM Concepts",
     "image": "/images/civil_prof_bim_planning.jpg",
     "description": "Building Information Modeling (BIM) coordination and project planning featuring Revit Architecture 3D, Navisworks clash detection, MS Project, and PPM concepts.",
-    "slug": "professional-in-bim-planning"
+    "slug": "professional-in-bim-planning",
+    "department": "Civil & Architecture"
   },
   {
     "id": "civil-prof-vis-interior",
@@ -738,7 +794,8 @@
     "software": "SketchUp + Corona + Enscape + Revit Architecture",
     "image": "/images/civil_prof_vis_interior.jpg",
     "description": "High-end interior design and architectural walkthrough rendering using Trimble SketchUp, Corona Renderer, Enscape real-time 3D, and Revit Architecture.",
-    "slug": "professional-in-visualization-interior-design"
+    "slug": "professional-in-visualization-interior-design",
+    "department": "Civil & Architecture"
   },
   {
     "id": "civil-prof-interior-vis",
@@ -751,7 +808,8 @@
     "software": "SketchUp + V-Ray + Twinmotion + Revit Architecture",
     "image": "/images/civil_prof_interior_vis.jpg",
     "description": "Photorealistic interior rendering and real-time visualization masterclass combining SketchUp 3D, Chaos V-Ray, Unreal Twinmotion, and Revit Architecture.",
-    "slug": "professional-in-interior-visualization"
+    "slug": "professional-in-interior-visualization",
+    "department": "Civil & Architecture"
   },
   {
     "id": "civil-prof-adv-qs",
@@ -764,12 +822,13 @@
     "software": "AutoCAD 2D + Revit + QTO + Quantity Survey Tools",
     "image": "/images/civil_prof_adv_qs.jpg",
     "description": "Construction estimation and cost management diploma mastering AutoCAD 2D drafting, Revit BIM models, Autodesk QTO, and Quantity Surveying tools.",
-    "slug": "professional-in-advanced-quantity-surveying"
+    "slug": "professional-in-advanced-quantity-surveying",
+    "department": "Civil & Architecture"
   },
   {
     "id": "mech-prof-mep-planning",
     "title": "Professional in MEP Design & Project Planning",
-    "domain": "Mechanical & Aeronautical",
+    "domain": "Mechanical & Aeronautical Designing",
     "level": "Professional",
     "duration": "240 Hours",
     "mode": "Online / Offline",
@@ -777,12 +836,13 @@
     "software": "AutoCAD 2D + Revit MEP + Primavera /Microsoft Projects + PPM Concepts",
     "image": "/images/mech_prof_mep_planning.jpg",
     "description": "Professional mechanical and electrical building design covering AutoCAD 2D, Revit MEP 3D modeling, Primavera / Microsoft Projects, and PPM concepts.",
-    "slug": "professional-in-mep-design-project-planning"
+    "slug": "professional-in-mep-design-project-planning",
+    "department": "Mechanical & Aeronautical Designing"
   },
   {
     "id": "mech-prof-product-planning",
     "title": "Professional in Product Design with Project Planning",
-    "domain": "Mechanical & Aeronautical",
+    "domain": "Mechanical & Aeronautical Designing",
     "level": "Professional",
     "duration": "260 Hours",
     "mode": "Online / Offline",
@@ -790,12 +850,13 @@
     "software": "Creo + SolidWorks + Primavera /Microsoft Projects + PPM",
     "image": "/images/mech_prof_product_planning.jpg",
     "description": "Mechanical product design masterclass integrating PTC Creo parametric modeling, Dassault SolidWorks, Primavera / MS Project, and PPM principles.",
-    "slug": "professional-in-product-design-with-project-planning"
+    "slug": "professional-in-product-design-with-project-planning",
+    "department": "Mechanical & Aeronautical Designing"
   },
   {
     "id": "mech-prof-auto-product",
     "title": "Professional in Automotive Product Design",
-    "domain": "Mechanical & Aeronautical",
+    "domain": "Mechanical & Aeronautical Designing",
     "level": "Professional",
     "duration": "160 Hours",
     "mode": "Online / Offline",
@@ -803,12 +864,13 @@
     "software": "AutoCAD 2D + SolidWorks + CATIA + Automotive CAD Theory",
     "image": "/images/mech_prof_auto_product.jpg",
     "description": "Automotive component and vehicle sub-assembly engineering utilizing AutoCAD 2D, SolidWorks, CATIA V5, and automotive CAD theoretical fundamentals.",
-    "slug": "professional-in-automotive-product-design"
+    "slug": "professional-in-automotive-product-design",
+    "department": "Mechanical & Aeronautical Designing"
   },
   {
     "id": "mech-prof-auto-struct",
     "title": "Professional in Automotive Structural Design",
-    "domain": "Mechanical & Aeronautical",
+    "domain": "Mechanical & Aeronautical Designing",
     "level": "Professional",
     "duration": "280 Hours",
     "mode": "Online / Offline",
@@ -816,12 +878,13 @@
     "software": "CATIA + SolidWorks + Ansys / Hypermesh / NX Nastran + Automobile CAD Theory",
     "image": "/images/mech_prof_auto_struct.jpg",
     "description": "Automotive structural chassis analysis and crashworthiness design with CATIA V5, SolidWorks, Ansys, Hypermesh, NX Nastran, and automobile CAD theory.",
-    "slug": "professional-in-automotive-structural-design"
+    "slug": "professional-in-automotive-structural-design",
+    "department": "Mechanical & Aeronautical Designing"
   },
   {
     "id": "mech-prof-aero-product",
     "title": "Professional in Aerospace Product Design",
-    "domain": "Mechanical & Aeronautical",
+    "domain": "Mechanical & Aeronautical Designing",
     "level": "Professional",
     "duration": "280 Hours",
     "mode": "Online / Offline",
@@ -829,12 +892,13 @@
     "software": "CATIA + SolidWorks + Autodesk Inventor + Aerospace CAD Theory",
     "image": "/images/mech_prof_aero_product.jpg",
     "description": "Aerospace component surface modeling, fuselage design, and turbine assembly utilizing CATIA V5, SolidWorks, Autodesk Inventor, and aerospace theory.",
-    "slug": "professional-in-aerospace-product-design"
+    "slug": "professional-in-aerospace-product-design",
+    "department": "Mechanical & Aeronautical Designing"
   },
   {
     "id": "mech-prof-aero-struct",
     "title": "Professional in Aerospace Structural Design",
-    "domain": "Mechanical & Aeronautical",
+    "domain": "Mechanical & Aeronautical Designing",
     "level": "Professional",
     "duration": "280 Hours",
     "mode": "Online / Offline",
@@ -842,12 +906,13 @@
     "software": "CATIA + Hypermesh + NX Nastran / Ansys + Aerospace CAD Theory",
     "image": "/images/mech_prof_aero_struct.jpg",
     "description": "Aerospace structural finite element modeling and stress analysis combining CATIA V5, Hypermesh meshing, NX Nastran, Ansys, and aerospace CAD theory.",
-    "slug": "professional-in-aerospace-structural-design"
+    "slug": "professional-in-aerospace-structural-design",
+    "department": "Mechanical & Aeronautical Designing"
   },
   {
     "id": "mech-prof-mep-design",
     "title": "Professional in MEP Design",
-    "domain": "Mechanical & Aeronautical",
+    "domain": "Mechanical & Aeronautical Designing",
     "level": "Professional",
     "duration": "260 Hours",
     "mode": "Online / Offline",
@@ -855,12 +920,13 @@
     "software": "AutoCAD 2D + Revit MEP + Microsoft Projects + PPM Concepts",
     "image": "/images/mech_prof_mep_design.jpg",
     "description": "Comprehensive MEP building services engineering covering AutoCAD 2D drafting, Revit MEP BIM modeling, Microsoft Projects, and PPM concepts.",
-    "slug": "professional-in-mep-design"
+    "slug": "professional-in-mep-design",
+    "department": "Mechanical & Aeronautical Designing"
   },
   {
     "id": "mech-prof-product-design",
     "title": "Professional in Product Design",
-    "domain": "Mechanical & Aeronautical",
+    "domain": "Mechanical & Aeronautical Designing",
     "level": "Professional",
     "duration": "240 Hours",
     "mode": "Online / Offline",
@@ -868,12 +934,13 @@
     "software": "AutoCAD 2D + SolidWorks + NX CAD",
     "image": "/images/mech_prof_product_design.jpg",
     "description": "Mechanical product drafting, 3D parametric modeling, and assembly design using AutoCAD 2D, SolidWorks, and Siemens NX CAD.",
-    "slug": "professional-in-product-design"
+    "slug": "professional-in-product-design",
+    "department": "Mechanical & Aeronautical Designing"
   },
   {
     "id": "mech-prof-product-analysis-240",
     "title": "Professional in Product Design & Analysis",
-    "domain": "Mechanical & Aeronautical",
+    "domain": "Mechanical & Aeronautical Designing",
     "level": "Professional",
     "duration": "240 Hours",
     "mode": "Online / Offline",
@@ -881,12 +948,13 @@
     "software": "AutoCAD 2D + NX Nastran + SolidWorks",
     "image": "/images/mech_prof_product_analysis_240.jpg",
     "description": "Mechanical design and finite element simulation diploma covering AutoCAD 2D drafting, Siemens NX Nastran FEA solver, and SolidWorks 3D.",
-    "slug": "professional-in-product-design-analysis-240h"
+    "slug": "professional-in-product-design-analysis-240h",
+    "department": "Mechanical & Aeronautical Designing"
   },
   {
     "id": "mech-prof-adv-simulation",
     "title": "Professional in Advanced Simulation",
-    "domain": "Mechanical & Aeronautical",
+    "domain": "Mechanical & Aeronautical Designing",
     "level": "Professional",
     "duration": "240 Hours",
     "mode": "Online / Offline",
@@ -894,12 +962,13 @@
     "software": "Catia + Ansys + Hypermash",
     "image": "/images/mech_prof_adv_simulation.jpg",
     "description": "Advanced computer-aided engineering (CAE) simulation course integrating Catia 3D geometry, Ansys FEA solver, and Hypermash pre-processing.",
-    "slug": "professional-in-advanced-simulation"
+    "slug": "professional-in-advanced-simulation",
+    "department": "Mechanical & Aeronautical Designing"
   },
   {
     "id": "mech-prof-product-analysis-260",
     "title": "Professional in Product Design & Analysis",
-    "domain": "Mechanical & Aeronautical",
+    "domain": "Mechanical & Aeronautical Designing",
     "level": "Professional",
     "duration": "260 hours",
     "mode": "Online / Offline",
@@ -907,12 +976,13 @@
     "software": "Solidworks + NX Card + NX Nastran",
     "image": "/images/mech_prof_product_analysis_260.jpg",
     "description": "Comprehensive mechanical product modeling and structural analysis using Solidworks, Siemens NX Card, and NX Nastran FEA simulation.",
-    "slug": "professional-in-product-design-analysis-260h"
+    "slug": "professional-in-product-design-analysis-260h",
+    "department": "Mechanical & Aeronautical Designing"
   },
   {
     "id": "elec-prof-mep-msp",
     "title": "Professional in MEP Designing",
-    "domain": "Electrical & Electronics",
+    "domain": "Electrical & Electronics Designing",
     "level": "Professional",
     "duration": "270 hours",
     "mode": "Online / Offline",
@@ -920,12 +990,13 @@
     "software": "AutoCAD 2D + Revit MEP + Microsoft Projects + PPM Concepts",
     "image": "/images/mep_designing_msp.jpg",
     "description": "Professional MEP building services design with AutoCAD 2D drafting, Revit MEP 3D modeling, MS Project timeline scheduling, and PPM concepts.",
-    "slug": "professional-mep-designing-ms-project"
+    "slug": "professional-mep-designing-ms-project",
+    "department": "Electrical & Electronics Designing"
   },
   {
     "id": "elec-prof-mep-primavera",
     "title": "Professional in MEP Designing",
-    "domain": "Electrical & Electronics",
+    "domain": "Electrical & Electronics Designing",
     "level": "Professional",
     "duration": "270 hours",
     "mode": "Online / Offline",
@@ -933,12 +1004,13 @@
     "software": "AutoCAD 2D + Revit MEP + Primavera + PPM Concepts",
     "image": "/images/mep_designing_primavera.jpg",
     "description": "Advanced professional MEP design program covering AutoCAD 2D, Revit MEP, Primavera P6 project control, and PPM principles.",
-    "slug": "professional-mep-designing-primavera"
+    "slug": "professional-mep-designing-primavera",
+    "department": "Electrical & Electronics Designing"
   },
   {
     "id": "elec-prof-electrical-system",
     "title": "Professional in Electrical System Design",
-    "domain": "Electrical & Electronics",
+    "domain": "Electrical & Electronics Designing",
     "level": "Professional",
     "duration": "240 hours",
     "mode": "Online / Offline",
@@ -946,12 +1018,13 @@
     "software": "AutoCAD Electrical + Revit MEP + Dialux + ETAP",
     "image": "/images/electrical_system_design.jpg",
     "description": "Comprehensive electrical system design diploma featuring AutoCAD Electrical schematics, Revit MEP, Dialux lighting, and ETAP power simulation.",
-    "slug": "professional-electrical-system-design"
+    "slug": "professional-electrical-system-design",
+    "department": "Electrical & Electronics Designing"
   },
   {
     "id": "elec-prof-hvac-fire",
     "title": "Professional in HVAC & Firefighting Design",
-    "domain": "Electrical & Electronics",
+    "domain": "Electrical & Electronics Designing",
     "level": "Professional",
     "duration": "240 hours",
     "mode": "Online / Offline",
@@ -959,12 +1032,13 @@
     "software": "AutoCAD 2D + HVAC + HAP + Revit MEP + Fire Systems",
     "image": "/images/elec_mep_course.jpg",
     "description": "Specialized HVAC ductwork and firefighting protection system design using AutoCAD 2D, HAP cooling analysis, Revit MEP, and fire codes.",
-    "slug": "professional-hvac-firefighting-design"
+    "slug": "professional-hvac-firefighting-design",
+    "department": "Electrical & Electronics Designing"
   },
   {
     "id": "elec-master-mep-hvac-plan",
     "title": "Master Diploma in MEP & HVAC Design with Project Planning",
-    "domain": "Electrical & Electronics",
+    "domain": "Electrical & Electronics Designing",
     "level": "Master Diploma",
     "duration": "380 hours",
     "mode": "Online / Offline",
@@ -972,12 +1046,13 @@
     "software": "AutoCAD 2D + Revit MEP + HVAC + HAP + Microsoft Project / Primavera + PPM Concepts",
     "image": "/images/revit_mep.jpg",
     "description": "Master diploma program in complete building MEP services, HVAC load estimation, HAP analysis, Revit BIM, and MS Project / Primavera controls.",
-    "slug": "master-diploma-mep-hvac-design-project-planning"
+    "slug": "master-diploma-mep-hvac-design-project-planning",
+    "department": "Electrical & Electronics Designing"
   },
   {
     "id": "elec-master-electrical-building",
     "title": "Master Diploma in Electrical Building System Design",
-    "domain": "Electrical & Electronics",
+    "domain": "Electrical & Electronics Designing",
     "level": "Master Diploma",
     "duration": "420 hours",
     "mode": "Online / Offline",
@@ -985,12 +1060,13 @@
     "software": "AutoCAD Electrical + Revit MEP + ETAP + Dialux + Navisworks + MS Project",
     "image": "/images/autocad_electrical.jpg",
     "description": "Advanced master program in electrical building distribution, ETAP power simulation, Dialux lighting design, Navisworks 3D clash detection, and MS Project.",
-    "slug": "master-diploma-electrical-building-system-design"
+    "slug": "master-diploma-electrical-building-system-design",
+    "department": "Electrical & Electronics Designing"
   },
   {
     "id": "elec-master-mep-bim-coordination",
     "title": "Master Diploma in MEP Coordination with BIM",
-    "domain": "Electrical & Electronics",
+    "domain": "Electrical & Electronics Designing",
     "level": "Master Diploma",
     "duration": "320 hours",
     "mode": "Online / Offline",
@@ -998,7 +1074,8 @@
     "software": "Revit MEP + Navisworks + AutoCAD 2D + Microsoft Project / Primavera + PPM Concepts",
     "image": "/images/plc_scada.jpg",
     "description": "Postgraduate master diploma in multi-disciplinary MEP BIM coordination, Navisworks clash resolution, Revit 3D modeling, and PPM project controls.",
-    "slug": "master-diploma-mep-coordination-bim"
+    "slug": "master-diploma-mep-coordination-bim",
+    "department": "Electrical & Electronics Designing"
   },
   {
     "id": "dm-prof-seo",
@@ -1011,7 +1088,8 @@
     "software": "SEO",
     "image": "/images/dm_prof_seo.jpg",
     "description": "Professional search engine optimization training mastering organic keyword research, technical SEO auditing, on-page optimization, backlink strategies, and search engine analytics.",
-    "slug": "professional-in-search-engine-optimization-seo"
+    "slug": "professional-in-search-engine-optimization-seo",
+    "department": "Digital Marketing & SEO"
   },
   {
     "id": "dm-prof-google-ads",
@@ -1024,7 +1102,8 @@
     "software": "Google Ads",
     "image": "/images/dm_prof_google_ads.jpg",
     "description": "Pay-per-click advertising program covering Google Ads Search campaigns, Keyword Planner bidding, quality score optimization, conversion tracking, and PPC analytics.",
-    "slug": "professional-in-google-ads-ppc-advertising"
+    "slug": "professional-in-google-ads-ppc-advertising",
+    "department": "Digital Marketing & SEO"
   },
   {
     "id": "dm-prof-meta-ads",
@@ -1037,7 +1116,8 @@
     "software": "Meta Ads",
     "image": "/images/dm_prof_meta_ads.jpg",
     "description": "Comprehensive social media advertising mastering Meta Ads Manager, Facebook & Instagram custom audience targeting, pixel tracking, retargeting campaigns, and ad creative optimization.",
-    "slug": "professional-in-meta-advertising"
+    "slug": "professional-in-meta-advertising",
+    "department": "Digital Marketing & SEO"
   },
   {
     "id": "dm-prof-email-marketing",
@@ -1050,7 +1130,8 @@
     "software": "Email Marketing",
     "image": "/images/dm_prof_email_marketing.jpg",
     "description": "Strategic email marketing and drip automation covering audience segmentation, newsletter copy design, deliverability optimization, A/B testing, and campaign analytics.",
-    "slug": "professional-in-email-marketing"
+    "slug": "professional-in-email-marketing",
+    "department": "Digital Marketing & SEO"
   },
   {
     "id": "dm-prof-web-analytics",
@@ -1063,7 +1144,8 @@
     "software": "Web Analytics",
     "image": "/images/dm_prof_web_analytics.jpg",
     "description": "Data-driven web analytics and traffic tracking mastering Google Analytics 4 (GA4), event tagging, user behavior funnels, custom reporting, and marketing attribution models.",
-    "slug": "professional-in-web-analytics"
+    "slug": "professional-in-web-analytics",
+    "department": "Digital Marketing & SEO"
   },
   {
     "id": "dm-prof-social-media",
@@ -1076,7 +1158,8 @@
     "software": "Social Media Marketing",
     "image": "/images/dm_prof_social_media.jpg",
     "description": "Organic social media marketing and brand engagement strategies across LinkedIn, Instagram, Facebook, and Twitter covering content calendars, community management, and growth analytics.",
-    "slug": "professional-in-social-media-marketing"
+    "slug": "professional-in-social-media-marketing",
+    "department": "Digital Marketing & SEO"
   },
   {
     "id": "dm-prof-hubspot",
@@ -1089,7 +1172,8 @@
     "software": "HubSpot",
     "image": "/images/dm_prof_hubspot.jpg",
     "description": "Inbound marketing and CRM automation mastering HubSpot Marketing Hub workflows, lead scoring, contact lifecycle management, landing page design, and deal funnel tracking.",
-    "slug": "professional-in-hubspot-marketing"
+    "slug": "professional-in-hubspot-marketing",
+    "department": "Digital Marketing & SEO"
   },
   {
     "id": "dm-prof-sem",
@@ -1102,7 +1186,8 @@
     "software": "Search Engine Marketing",
     "image": "/images/dm_prof_sem.jpg",
     "description": "Search engine marketing masterclass integrating paid search advertising, Bing & Google ad strategy, competitor keyword analysis, landing page conversion optimization, and ROI tracking.",
-    "slug": "professional-in-search-engine-marketing-sem"
+    "slug": "professional-in-search-engine-marketing-sem",
+    "department": "Digital Marketing & SEO"
   },
   {
     "id": "dm-prof-display-video",
@@ -1115,6 +1200,7 @@
     "software": "Display Advertising + Video Advertising",
     "image": "/images/dm_prof_display_video.jpg",
     "description": "Digital display banner and YouTube video advertising course covering Google Display Network (GDN) placement, video ad sequencing, audience retargeting, and rich media campaign analytics.",
-    "slug": "professional-in-display-video-advertising"
+    "slug": "professional-in-display-video-advertising",
+    "department": "Digital Marketing & SEO"
   }
 ]

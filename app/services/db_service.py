@@ -6,6 +6,29 @@ import random
 import uuid
 from datetime import datetime
 
+CANONICAL_DOMAINS = {
+    'it & non-it': 'IT & Non-IT',
+    'it': 'IT & Non-IT',
+    'it & software': 'IT & Non-IT',
+    'multimedia': 'Multimedia',
+    'accounting & erp': 'Accounts & Finance',
+    'accounts & finance': 'Accounts & Finance',
+    'civil & architecture': 'Civil & Architecture',
+    'civil': 'Civil & Architecture',
+    'mechanical & aeronautical': 'Mechanical & Aeronautical Designing',
+    'mechanical & aeronautical designing': 'Mechanical & Aeronautical Designing',
+    'electrical & electronics': 'Electrical & Electronics Designing',
+    'electrical & electronics designing': 'Electrical & Electronics Designing',
+    'digital marketing & seo': 'Digital Marketing & SEO',
+    'digital marketing': 'Digital Marketing & SEO'
+}
+
+def normalize_domain(raw_val):
+    if not raw_val:
+        return 'IT & Non-IT'
+    clean = str(raw_val).strip().lower()
+    return CANONICAL_DOMAINS.get(clean, str(raw_val).strip())
+
 class DBService:
     def __init__(self):
         mongo_uri = os.getenv('MONGO_URI', 'mongodb://localhost:27017/cadpoint_db')
@@ -18,7 +41,7 @@ class DBService:
         self.memory_admins = [
             {
                 'username': 'admin',
-                'email': 'admin@cadpoint.co.in',
+                'email': 'cadpointsalem001@gmail.com',
                 'password_hash': generate_password_hash('cadpoint@123'),
                 'role': 'admin'
             }
@@ -40,23 +63,32 @@ class DBService:
         try:
             admin_user = self.db.admins.find_one({
                 '$or': [
-                    {'email': 'admin@cadpoint.co.in'},
                     {'email': 'cadpointsalem001@gmail.com'},
+                    {'email': 'admin@cadpoint.co.in'},
                     {'username': 'admin'}
                 ]
             })
+            initial_hash = generate_password_hash('cadpoint@123')
+            
             if not admin_user:
                 self.db.admins.insert_one({
                     'username': 'admin',
-                    'email': 'admin@cadpoint.co.in',
-                    'password_hash': generate_password_hash('cadpoint@123'),
+                    'email': 'cadpointsalem001@gmail.com',
+                    'password_hash': initial_hash,
                     'role': 'admin',
                     'createdAt': datetime.utcnow().isoformat()
                 })
-                print("Initialized default admin user: admin@cadpoint.co.in with initial password")
+                print("Initialized default admin user: cadpointsalem001@gmail.com")
             else:
-                # Ensure password hash supports initial password if user hasn't changed it
-                pass
+                # Update existing admin account to ensure cadpointsalem001@gmail.com credentials match
+                self.db.admins.update_one(
+                    {'_id': admin_user['_id']},
+                    {'$set': {
+                        'email': 'cadpointsalem001@gmail.com',
+                        'username': admin_user.get('username', 'admin')
+                    }}
+                )
+                print("Updated admin user email to: cadpointsalem001@gmail.com")
         except Exception as e:
             print(f"Error initializing admin user: {e}")
 
@@ -66,6 +98,11 @@ class DBService:
             if os.path.exists(json_path):
                 with open(json_path, 'r', encoding='utf-8') as f:
                     courses_list = json.load(f)
+
+                # Normalize domain/department for all courses
+                for crs in courses_list:
+                    crs['domain'] = normalize_domain(crs.get('domain') or crs.get('category'))
+                    crs['department'] = crs['domain']
 
                 if self.is_connected:
                     for crs in courses_list:
@@ -78,10 +115,17 @@ class DBService:
                             course_doc = dict(crs)
                             course_doc['createdAt'] = datetime.utcnow().isoformat()
                             self.db.courses.insert_one(course_doc)
+                        else:
+                            # Update domain to canonical form if needed
+                            canon = normalize_domain(existing.get('domain') or existing.get('category'))
+                            self.db.courses.update_one(
+                                {'_id': existing['_id']},
+                                {'$set': {'domain': canon, 'department': canon}}
+                            )
                 else:
                     self.memory_courses = list(courses_list)
 
-                print(f"Course database check complete. Active courses seeded cleanly.")
+                print("Course database check & canonical domain normalization complete.")
         except Exception as e:
             print(f"Error seeding initial courses: {e}")
 
@@ -104,10 +148,10 @@ class DBService:
 
         if not user:
             # Fallback check for initial default admin credentials
-            if input_clean in ['admin', 'admin@cadpoint.co.in', 'cadpointsalem001@gmail.com'] and password in ['cadpoint@123', 'Cadpoint@2026']:
+            if input_clean in ['cadpointsalem001@gmail.com', 'admin@cadpoint.co.in', 'admin'] and password in ['cadpoint@123', 'Cadpoint@2026']:
                 return {
                     'username': 'admin',
-                    'email': 'admin@cadpoint.co.in',
+                    'email': 'cadpointsalem001@gmail.com',
                     'role': 'admin'
                 }
             return None
@@ -116,7 +160,7 @@ class DBService:
         if check_password_hash(user.get('password_hash', ''), password) or password in ['cadpoint@123', 'Cadpoint@2026']:
             return {
                 'username': user.get('username', 'admin'),
-                'email': user.get('email', 'admin@cadpoint.co.in'),
+                'email': user.get('email', 'cadpointsalem001@gmail.com'),
                 'role': user.get('role', 'admin')
             }
         return None
@@ -243,18 +287,33 @@ class DBService:
         if self.is_connected:
             query = {}
             if category and category != 'All':
-                query['category'] = category
+                canon_cat = normalize_domain(category)
+                query['$or'] = [
+                    {'domain': canon_cat},
+                    {'category': canon_cat},
+                    {'level': canon_cat}
+                ]
             courses = list(self.db.courses.find(query, {'_id': 0}))
+            for c in courses:
+                c['domain'] = normalize_domain(c.get('domain') or c.get('category'))
+                c['department'] = c['domain']
             return courses
         else:
+            res = list(self.memory_courses)
+            for c in res:
+                c['domain'] = normalize_domain(c.get('domain') or c.get('category'))
+                c['department'] = c['domain']
             if category and category != 'All':
-                return [c for c in self.memory_courses if c.get('category') == category]
-            return self.memory_courses
+                canon_cat = normalize_domain(category)
+                res = [c for c in res if c.get('domain') == canon_cat or c.get('category') == canon_cat]
+            return res
 
     def save_course(self, course_data):
         if 'id' not in course_data:
             course_data['id'] = f"CRS-{random.randint(10000, 99999)}"
         course_data['createdAt'] = datetime.utcnow().isoformat()
+        course_data['domain'] = normalize_domain(course_data.get('domain') or course_data.get('category'))
+        course_data['department'] = course_data['domain']
 
         if self.is_connected:
             self.db.courses.insert_one(dict(course_data))
@@ -264,6 +323,11 @@ class DBService:
         return course_data['id']
 
     def update_course(self, course_id, update_data):
+        if 'domain' in update_data or 'category' in update_data:
+            canon = normalize_domain(update_data.get('domain') or update_data.get('category'))
+            update_data['domain'] = canon
+            update_data['department'] = canon
+
         if self.is_connected:
             self.db.courses.update_one({'id': course_id}, {'$set': update_data})
         else:
