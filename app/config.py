@@ -18,3 +18,8 @@ class Config:
     ADMIN_EMAIL = os.getenv('ADMIN_EMAIL', 'cadpointsalem001@gmail.com')
     
     WHATSAPP_PHONE = os.getenv('WHATSAPP_PHONE', '919566679928')
+
+    # Cloudinary Secure Storage Configuration
+    CLOUDINARY_CLOUD_NAME = os.getenv('CLOUDINARY_CLOUD_NAME', 'cadpoint')
+    CLOUDINARY_API_KEY = os.getenv('CLOUDINARY_API_KEY', '')
+    CLOUDINARY_API_SECRET = os.getenv('CLOUDINARY_API_SECRET', '')
