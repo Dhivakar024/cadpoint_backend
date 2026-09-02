@@ -359,9 +359,11 @@ class DBService:
 
     def delete_enquiry(self, enquiry_id):
         if self.is_connected:
-            self.db.enquiries.delete_one({'id': enquiry_id})
+            self.db.enquiries.delete_one({
+                '$or': [{'id': enquiry_id}, {'email': enquiry_id}]
+            })
         else:
-            self.memory_enquiries = [e for e in self.memory_enquiries if e.get('id') != enquiry_id]
+            self.memory_enquiries = [e for e in self.memory_enquiries if e.get('id') != enquiry_id and e.get('email') != enquiry_id]
         return True
 
     def get_registrations(self):
@@ -380,9 +382,11 @@ class DBService:
 
     def delete_registration(self, reg_id):
         if self.is_connected:
-            self.db.registrations.delete_one({'registrationId': reg_id})
+            self.db.registrations.delete_one({
+                '$or': [{'registrationId': reg_id}, {'id': reg_id}, {'email': reg_id}]
+            })
         else:
-            self.memory_registrations = [r for r in self.memory_registrations if r.get('registrationId') != reg_id]
+            self.memory_registrations = [r for r in self.memory_registrations if r.get('registrationId') != reg_id and r.get('id') != reg_id]
         return True
 
     def get_privacy_requests(self):
