@@ -350,7 +350,10 @@ class DBService:
 
     def update_enquiry_status(self, enquiry_id, status):
         if self.is_connected:
-            self.db.enquiries.update_one({'id': enquiry_id}, {'$set': {'status': status}})
+            self.db.enquiries.update_one(
+                {'$or': [{'id': enquiry_id}, {'email': enquiry_id}]},
+                {'$set': {'status': status}}
+            )
         else:
             for e in self.memory_enquiries:
                 if e.get('id') == enquiry_id or e.get('email') == enquiry_id:
